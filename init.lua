@@ -3,4 +3,5 @@ registerForEvent("init", function()
     --LogDiscord('default', 'Loaded!', 'green', 'discordLogs have been loaded!')
 end)
 
+
 require("s_main")

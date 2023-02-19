@@ -1,7 +1,7 @@
-local ssl = require('ssl')
+require("json")
+local ssl = require("ssl")
+local https = require(ssl.https)
 
-local json = require "json"
-local https = require 'ssl.https'
 
 local Webhooks = { -- Set your webhooks here!
     -- webhooName  -> link 
