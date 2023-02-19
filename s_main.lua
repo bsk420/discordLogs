@@ -1,5 +1,4 @@
-local socket = require("socket")
-local ssl = require('openssl').ssl
+local ssl = require('ssl')
 
 local json = require "json"
 local https = require 'ssl.https'
